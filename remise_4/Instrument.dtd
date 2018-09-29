@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT instrument (nom, timbre, conteneur_touche)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT timbre (#PCDATA)>
+<!ELEMENT conteneur_touche (touche*)>
+<!ELEMENT touche (nom,
+                  forme,
+                  taille_relative_x,
+                  taille_relative_y,
+                  position_relative_x,
+                  position_relative_y,
+                  bordure,
+                  couleur,
+                  couleur_bordure,
+                  image_de_fond,
+                  fichier_audio,
+                  octave,
+                  note,
+                  persistance,
+                  afficher_nom,
+                  afficher_octave,
+                  afficher_note,
+                  afficher_persistance)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT forme (#PCDATA)>
+<!ELEMENT taille_relative_x (#PCDATA)>
+<!ELEMENT taille_relative_y (#PCDATA)>
+<!ELEMENT position_relative_x (#PCDATA)>
+<!ELEMENT position_relative_y (#PCDATA)>
+<!ELEMENT bordure (#PCDATA)>
+<!ELEMENT couleur (rouge, vert, bleu)>
+<!ELEMENT couleur_bordure (rouge, vert, bleu)>
+<!ELEMENT rouge (#PCDATA)>
+<!ELEMENT vert (#PCDATA)>
+<!ELEMENT bleu (#PCDATA)>
+<!ELEMENT image_de_fond (ANY)>
+<!ELEMENT fichier_audio (ANY)>
+<!ELEMENT octave (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT persistance (#PCDATA)>
+<!ELEMENT afficher_nom (#PCDATA)>
+<!ELEMENT afficher_octave (#PCDATA)>
+<!ELEMENT afficher_note (#PCDATA)>
+<!ELEMENT afficher_persistance (#PCDATA)>
+
